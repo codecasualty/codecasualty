@@ -11,7 +11,7 @@ Outside work I build things to understand how distributed systems actually behav
 
 #### What I'm building
 
-**[BeeDB](https://beedb.subodhlatkar.com)** is a replicated key-value store in Java 21 with a
+**[BeeDB](github.com/codecasualty/beedb)** is a replicated key-value store in Java 21 with a
 Raft implementation I wrote by hand. It speaks the memcached protocol, writes every change to a
 CRC-framed write-ahead log, and only acknowledges a write once a majority has it and it is on disk.
 
